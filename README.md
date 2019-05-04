@@ -48,8 +48,8 @@ Add your credentials to `configuration.yaml`:
 For example:
 ```
 meross:
-  username: !secret meross_userame
-  password: !secret meross_password
+  username: !secret Shelly_userame
+  password: !secret Shelly_password
   scan_interval: 10
   shelly_cloud_devices_scan_interval: 900
 ```
